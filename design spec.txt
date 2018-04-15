@@ -15,7 +15,7 @@ Features planned:
 Design Flow:
 
 Display main menu
-1. Study ---------------------> Stack menu (query out to db/file for names of stacks; loads appropriate stack selected)
+1. Study ---------------------> Stack menu (query out to db/file for names of stacks; loads appropriate stack selected into dictionary as a global var)
 2. edit existing stack
 3. upload new stack
 4. exit
@@ -27,5 +27,13 @@ Display main menu
   [advances to randomization/setup then display mode]
   
     setup
+    [pulls the stack dictionary global var and creates a randomized list version that excludes elements the student has mastered]
+    
+    display
+    [itterate through the list generated in setup displaying the prompt first]
+    [wait for the student to indicate they are ready to see the answer]
+    [display the answer]
+    [ask for feedback on if they correctly answered it]
+    [update db with feedback]
 
 
