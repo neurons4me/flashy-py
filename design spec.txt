@@ -1,0 +1,31 @@
+# flashy-py
+Goal:
+The purpose behind flashy-py as an app is to act as a tool for students to easily upload flash card details and study using the cards.
+
+Features planned:
+-Batch upload of card details
+-card by card creation option
+-main menu
+-select from different subjects(stacks)
+-display cards
+-remove cards the student understands from circulation
+-randomize the order of cards
+
+
+Design Flow:
+
+Display main menu
+1. Study ---------------------> Stack menu (query out to db/file for names of stacks; loads appropriate stack selected)
+2. edit existing stack
+3. upload new stack
+4. exit
+
+  Stack Menu
+  -list of stacks
+  -input asking to select by #
+  [loads data from db based on stack selected]
+  [advances to randomization/setup then display mode]
+  
+    setup
+
+
